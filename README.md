@@ -30,7 +30,7 @@
 * **功能**: 
     * 使用 Selenium Chrome Headless 模式。
     * 模擬點擊「Next」按鈕自動爬取前 5 頁。
-    * 儲存 `text`, `author`, `tags` (逗號分隔字串) 至 `quotes.db`。
+    * 儲存 `text`, `author`, `tags` (逗號分隔字串) 至 `quotes.db(資料庫資料)`;一開始檔案無`quotes.db`，需先執行`pacho.py`才會產生。
 
 ### 第二步：後端 API 服務 (api.py)
 * **執行指令**: `uvicorn api:app --reload`
