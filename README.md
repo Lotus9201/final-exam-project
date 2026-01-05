@@ -13,20 +13,21 @@
 
 ### 1. 後端 API 文件 (Swagger UI)
 展示系統提供的所有 API 端點（GET, POST, PUT, DELETE）。
-![API Swagger 截圖](./images/api_swagger.png)
+<img width="1246" height="679" alt="API Swagger" src="https://github.com/user-attachments/assets/d7d2a881-9066-4db0-b6ec-fb1cc115bf7a" />
 > **步驟1**：開啟 `http://127.0.0.1:8000/docs` 後的完整畫面，會看到「名言佳句 API」標題。
 
 ### 2. GUI 視窗運作
 展示圖形介面成功載入資料庫內容，並呈現多執行緒穩定的操作環境。
-![GUI 運作截圖](./images/gui.py.png)
-> **步驟3**：啟動 `gui.py` 後，表格內顯示多筆名言，且底部狀態列顯示「資料載入完成」的畫面。
+<img width="796" height="627" alt="gui py" src="https://github.com/user-attachments/assets/7a5c315f-ee19-4115-91e2-5aca9a5f649e" />)
+> **步驟2**：啟動 `gui.py` 後，表格內顯示多筆名言，且底部狀態列顯示「資料載入完成」的畫面。
 
 ---
 
 ## 執行步驟與功能說明
 
 ### 第一步：動態爬蟲 (pacho.py)
-* **執行指令**: `python pacho.py`
+* **執行指令**: `python pacho.py`![Uploading API Swagger.png…]()
+
 * **功能**: 
     * 使用 Selenium Chrome Headless 模式。
     * 模擬點擊「Next」按鈕自動爬取前 5 頁。
